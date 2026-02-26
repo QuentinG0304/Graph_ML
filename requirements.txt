@@ -1,0 +1,43 @@
+# ============================================================
+# Graph Machine Learning — CentraleSupélec
+# Axe 1 : GNN sur PubMed  |  Axe 2 : KGE sur KG20C
+# Python 3.11.7
+# ============================================================
+
+# --- Cœur PyTorch ---
+torch==2.10.0
+
+# --- Graph Machine Learning (GNNs — Axe 1) ---
+torch-geometric==2.7.0
+# ⚠️  torch-cluster nécessite un wheel pré-compilé compatible avec torch+Python.
+#     La version 2.10.0 de torch n'est PAS encore supportée par PyG (max : 2.6.0).
+#     Pour installer la version la plus proche disponible (Windows/CPU/Python 3.11) :
+#
+#       pip install https://data.pyg.org/whl/torch-2.6.0+cpu/torch_cluster-1.6.3+pt26cpu-cp311-cp311-win_amd64.whl
+#
+#     Cette dépendance est requise pour Node2Vec uniquement.
+#     Le reste du notebook (GCN, GraphSAGE, GAT, Link Prediction) fonctionne sans elle.
+
+# --- Machine Learning classique ---
+scikit-learn==1.8.0
+scipy==1.17.1
+
+# --- Données ---
+pandas==3.0.1
+numpy==2.4.2
+
+# --- Analyse de graphes classique ---
+networkx==3.6.1
+python-louvain==0.16
+
+# --- Knowledge Graphs (KGE — Axe 2) ---
+pykeen==1.11.1
+optuna==4.7.0
+
+# --- Visualisation ---
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# --- Environnement Notebook ---
+jupyterlab==4.5.5
+ipykernel==7.2.0

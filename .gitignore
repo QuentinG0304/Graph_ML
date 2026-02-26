@@ -1,0 +1,8 @@
+# Ignorer l'environnement virtuel
+.venv/
+venv/
+
+# Ignorer les dossiers cachés de Jupyter et Python
+.ipynb_checkpoints/
+__pycache__/
+

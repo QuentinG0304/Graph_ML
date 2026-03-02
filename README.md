@@ -45,7 +45,7 @@ PubMed est un graphe de **citations scientifiques biomédicales** :
 > ⚠️ `torch-cluster` requis pour Node2Vec. En cas d'absence, une alternative sklearn (PCA + KMeans sur les features) est proposée automatiquement.
 
 ### 5. GNN — Node Classification (*GNN*)
-- **GCN_Dynamic** et **GraphSAGE_Dynamic** avec K couches variables (k=1..6)
+- **GCN_Dynamic** et **GraphSAGE_Dynamic** avec K couches variables (k=1 à 6)
 - Analyse de l'**over-smoothing** : la précision plafonne puis chute à partir de K=4-5
 - Comparaison loss curves et accuracy GCN vs GraphSAGE
 

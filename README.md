@@ -83,7 +83,7 @@ Graph_ML/
 
 ## Axe 2 — KG20C (Knowledge Graph Embedding)
 
-**Dataset :** KG20C — extrait du graphe de connaissances Freebase centré sur ~20 types de personnalités célèbres
+**Dataset :** KG20C (Knowledge Graph of 20 Conferences). Ce dernier est un graphe de connaissances spécialisé conçu comme un benchmark pour la prédiction de liens dans le domaine de la recherche académique en informatique.
 
 ### Caractéristiques du dataset
 
